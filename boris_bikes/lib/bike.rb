@@ -1,5 +1,5 @@
 class Bike
-    def initialize(index)
+    def initialize
         @bike
     end
 
