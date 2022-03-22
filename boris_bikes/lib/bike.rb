@@ -1,7 +1,10 @@
 class Bike
-    def initialize
+    def initialize(index)
         @bike
     end
+
+
+
     def working?
         if true 
             return "Working"
