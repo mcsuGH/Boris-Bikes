@@ -1,5 +1,8 @@
-describe 'DockingStation' do 
+require 'dockingstation'
+docking_station = DockingStation.new
+
+describe DockingStation do 
     it 'Releases a bike' do
-        expect(release).to eq 'bike released'
+        expect(docking_station.release_bike).to eq true
     end
 end
