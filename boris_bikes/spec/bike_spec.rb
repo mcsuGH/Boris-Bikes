@@ -3,7 +3,7 @@ bike = Bike.new
 
 describe Bike do
     it 'Bike Working' do
-        expect(bike.working?).to eq "Working"
+        expect(bike).to respond_to :working?
     end
 end
     

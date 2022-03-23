@@ -7,6 +7,8 @@ A program to show where you are able to get a Bike for travel.
 | Bike                         | is it working?    |
 | Docking Station              | release bike      |
 
+# Diagram
+Bike --> working --> true --> DockingStation --> Release bike --> a Bike
 
 # Errors are good
 Type of error = NameError
